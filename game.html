@@ -4,8 +4,37 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
+      <link rel="stylesheet" href="game.css">
 </head>
 <body>
-      
+   <h1>Rock Paper and Scissor </h1>
+      <div class="choices">
+            <div class="choice" id="rock">
+               <img src="rockgame.png">
+            </div>
+              <div class="choice"id="rock">
+               <img src="papergame.png">
+            </div>
+              <div class="choice"id="rock">
+               <img src="scissorsgame.png">
+            </div>
+      </div>
+    <div class="score-board">
+      <div class="score">
+            <p id="user-score">0</p>
+            <p>you</p>
+      </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>comp</p>
+      </div>
+    </div>
+
+    <div class="msg-container">
+    <div class="msg">
+      <p id="msg">Play your move</p>
+    </div>
+    </div>
 </body>
+<script src="game.js"></script>
 </html>
