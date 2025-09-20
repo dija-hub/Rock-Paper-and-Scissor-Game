@@ -53,3 +53,12 @@ img{
 .msg-container{
       margin-top:60px;
 }
+#msg{
+      background-color: #081b31;
+      color:#fff;
+      height:2rem;
+      display:inline;
+      padding:1rem;
+      border-radius:1rem;
+
+}
