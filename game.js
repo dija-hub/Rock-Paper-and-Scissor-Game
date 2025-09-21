@@ -32,4 +32,11 @@ userScorePara.innerText=userScore;
              msg.style.backgroundColor="red";
       }
 }
+const playGame =(userChoice)=>{
+      
+ const compChoice=genCompChoice()
+ 
+
+ if (userChoice===compChoice){
+ draw();
 
