@@ -39,4 +39,16 @@ const playGame =(userChoice)=>{
 
  if (userChoice===compChoice){
  draw();
+ }else {
+      let userWin =true;
+      if (userChoice ==="Rock"){
+           userWin= compChoice==="Paper"?false:true;
+      }else if(userChoice ==="Paper"){
+            userWin=compChoice==="Scissor"?false:true;
+      }else{
+            userWin= compChoice==="Rock"?false:true;
+      }
+      showWinner (userWin ,userChoice,compChoice);
+ }
+}
 
